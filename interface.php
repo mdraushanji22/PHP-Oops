@@ -11,8 +11,10 @@ class Cat implements Animal
     {
         echo "Cat is meow";
     }
+
 }
-class Dog implements Animal{
+class Dog implements Animal
+{
     #[Override]
     public function makeSound()
     {
@@ -22,5 +24,5 @@ class Dog implements Animal{
 $c1 = new Cat();
 $c1->makeSound();
 
-$dog = New Dog();
+$dog = new Dog();
 $dog->makeSound();
