@@ -2,7 +2,5 @@
 require "First.php";
 require "Second.php";
 
-class test2
-{
-
-}
+$obj  = new first\test;
+$obj1 = new second\test1;
