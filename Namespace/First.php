@@ -7,7 +7,7 @@ class test
     {
         echo "This is test class<br>";
 
-        $num1 = 10;
+        $num1 = 100;
         $num2 = 20;
         $sum  = $num1 + $num2;
 
